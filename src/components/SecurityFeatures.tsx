@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import FeatureCard from './FeatureCard';
 import FeatureImage from './FeatureImage';
 
-import { UserCircleIcon, BeakerIcon,ArrowPathRoundedSquareIcon, ShieldCheckIcon } from '@heroicons/react/24/solid'
+import { UserCircleIcon, ArrowPathRoundedSquareIcon, ShieldCheckIcon } from '@heroicons/react/24/solid'
 const features = [
   {
     title: 'Role based access control',
