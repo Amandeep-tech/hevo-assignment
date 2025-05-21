@@ -3,19 +3,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 About the Project:
 
-## Built with reusable components: 
+Built with reusable components: 
     FeatureCard (for each feature with animated progress) and FeatureImage (for the right-side image).
 
-## Animation Flow:
+Animation Flow:
     The active card shows a circular progress animation on its border using Tailwind CSS and framer-motion. When the animation completes, the next card becomes active and the right image updates.
 
-## Responsiveness:
+Responsiveness:
     The layout is fully responsive using Tailwind CSS, working well on both desktop and mobile screens.
 
-## Dynamic Rendering:
+Dynamic Rendering:
     Features are rendered from a data array, making it easy to add or remove cards in the future.
 
-## User Interaction:
+User Interaction:
     Clicking any card stops the auto-animation and activates that card immediately.
 
 
