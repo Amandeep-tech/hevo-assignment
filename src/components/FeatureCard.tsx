@@ -10,7 +10,8 @@ interface FeatureCardProps {
 
 export default function FeatureCard({ icon, title, active, progress, onClick }: FeatureCardProps) {
   const progressDegree = progress * 360;
-
+  // use this to prevent the reverse animation
+  const isResetting = progress === 0;
   return (
     <div
       className={`flex items-center gap-4 p-4 rounded-xl cursor-pointer transition-all duration-300 border-2 ${active ? 'border-indigo-600 bg-indigo-50 shadow-lg' : 'border-gray-200 bg-white'} w-full`}
